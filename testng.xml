@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hp/Jayesh/Practise_java">
+        <classes>
+            <class name="Tests.AddNewMaterialMasterWorkflowRoleTest">
+                <methods>
+                    <exclude name="material_master_workflow"/>
+                </methods>
+            </class>
+            <class name="Tests.Login_Test">
+                <methods>
+                    <include name="staging_initiator_login"/>
+                    <include name="staging_reviewer_login"/>
+                    <include name="int_initiator_login"/>
+                    <include name="int_reviewer_login"/>
+                </methods>
+            </class>
+            <class name="Tests.VerifyTheViewProcessLogTest">
+                <methods>
+                    <exclude name="login_test"/>
+                </methods>
+            </class>
+            <class name="Tests.Verify_Approve_Status_of_Request_Test">
+                <methods>
+                    <exclude name="Verify_Approve_Status_Of_Request"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

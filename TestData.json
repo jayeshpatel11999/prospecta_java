@@ -1,0 +1,22 @@
+{
+  "staging_initiator": {
+    "Base_URL": "https://fuse-int.masterdataonline.com/ngx-auth/en/index.html#/auth/Marcusone/enter-username",
+    "UserName": "prospecta_initiator@yopmail.com",
+    "Password": "Welcome@1234"
+  },
+  "staging_reviewer": {
+    "Base_URL": "https://fuse-int.masterdataonline.com/ngx-auth/en/index.html#/auth/Marcusone/enter-username",
+    "UserName": "prospecta_reviewer@yopmail.com",
+    "Password": "Welcome@1234"
+  },
+  "int_initiator": {
+    "Base_URL": "https://fuse-int.masterdataonline.com/ngx-auth/en/index.html#/auth/Marcusone/enter-username",
+    "UserName": "auto_initiator@yopmail.com",
+    "Password": "Welcome@123"
+  },
+  "int_reviewer": {
+    "Base_URL": "https://fuse-int.masterdataonline.com/ngx-auth/en/index.html#/auth/Marcusone/enter-username",
+    "UserName": "auto_reviewer@yopmail.com",
+    "Password": "Welcome@123"
+  }
+}
